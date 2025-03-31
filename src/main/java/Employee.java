@@ -1,15 +1,15 @@
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
-@Getter
+/*@Getter
 @Setter
 @AllArgsConstructor
-@ToString
+@ToString*/
+@Data // Top Class Annotation (Contain getter setter)
+@AllArgsConstructor
+// @RequiredArgsConstructor
 // annotation help to automatically write the code
 
 public class Employee {
-    private String name;
+    private final String name;
     private String email;
 }
