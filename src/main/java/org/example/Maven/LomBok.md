@@ -24,11 +24,11 @@ a. Maven Dependency
 a. @Data (All-in-One)
 
 Generates:
-Getters for all fields
-Setters for non-final fields
-toString()
-equals() and hashCode()
-Constructor for all final fields
+-- Getters for all fields
+-- Setters for non-final fields
+-- toString()
+-- equals() and hashCode()
+-- Constructor for all final fields
 
 @Data
 public class User {
@@ -55,6 +55,8 @@ private Long id;
 private final String name;
 @NonNull private Integer age;
 }
+
+## @RequiredArgsConstructor is used to create constructor of final member(variable, method)
 
 d. @ToString
 
@@ -137,7 +139,7 @@ lombok.data.flagUsage = WARNING
 
 7. Comparison with Alternatives
 
-Tool	                Approach	            Pros	                                Cons
+Tool	                Approach	                 Pros	                            Cons
 Lombok	        Compile-time generation	    Clean code, no runtime cost     	Magic-like behavior
 AutoValue	        Immutable codegen	     Google-supported, explicit	            More verbose
 Records (Java 16+)	Language feature	       Standard, simple	                    Less flexible

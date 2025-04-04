@@ -31,12 +31,12 @@ ant -f custom-build.xml	  Uses a different build file
 
 5. ## ANT vs Maven vs Gradle
 
-Feature	          ANT	            Maven	        Gradle
-Configuration	  XML	             XML	       Groovy/Kotlin DSL
+Feature	           ANT	            Maven	         Gradle
+Configuration	   XML	             XML	       Groovy/Kotlin DSL
 Dependency Mgmt   Manual	      Automatic	         Automatic
-Conventions	       None	            Strong	          Flexible
+Conventions	      None	            Strong	          Flexible
 Learning Curve	  Medium        	 Low	        Medium-High
-Performance	        Fast	         Slow	        Very Fast (incremental builds)
+Performance	      Fast	            Slow	        Very Fast (incremental builds)
 
 6. When to Use ANT Today?
 
