@@ -28,7 +28,6 @@
       <configuration>
         <source>11</source>
         <target>11</target>
-        <!-- Remove any --add-exports or --add-opens flags here -->
         <annotationProcessorPaths>
           <path>
             <groupId>org.projectlombok</groupId>
