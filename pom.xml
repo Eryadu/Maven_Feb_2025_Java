@@ -23,12 +23,12 @@
     <plugin>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-compiler-plugin</artifactId>
-      <version>3.11.0</version> <!-- Use the latest version -->
+      <version>3.11.0</version> <!-- Newer version -->
       <configuration>
         <source>11</source>
         <target>11</target>
         <!-- DO NOT use <release> -->
-        <!-- DO NOT use <compilerArgs> with --add-exports -->
+        <!-- DO NOT use --add-exports or --add-opens -->
         <annotationProcessorPaths>
           <path>
             <groupId>org.projectlombok</groupId>
@@ -40,9 +40,6 @@
     </plugin>
   </plugins>
 </build>
-
-
-
 
 
   <dependencies>
