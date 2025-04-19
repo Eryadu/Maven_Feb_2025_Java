@@ -13,23 +13,23 @@
   <name>Java_feb2025_maven</name>
   <url>http://maven.apache.org</url>
 
- <properties>
+<properties>
   <maven.compiler.release>11</maven.compiler.release> <!-- Use release instead of source and target -->
 </properties>
 
-   <build>
+<build>
   <plugins>
     <plugin>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-compiler-plugin</artifactId>
       <version>3.8.1</version>
       <configuration>
-        <release>11</release>
+        <release>11</release> <!-- Specify the release flag -->
         <annotationProcessorPaths>
           <path>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.20</version>
+            <version>1.18.30</version>
           </path>
         </annotationProcessorPaths>
       </configuration>
@@ -49,7 +49,7 @@
     <dependency>
   <groupId>org.projectlombok</groupId>
   <artifactId>lombok</artifactId>
-  <version>1.18.20</version>
+  <version>1.18.30</version>
   <scope>provided</scope>
 </dependency>
 
