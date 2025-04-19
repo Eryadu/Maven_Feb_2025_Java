@@ -29,6 +29,7 @@
           <source>11</source>
           <target>11</target>
           <compilerArgs>
+            <!-- Removing --release flag completely -->
             <arg>--add-exports</arg>
             <arg>jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED</arg>
             <arg>--add-opens</arg>
