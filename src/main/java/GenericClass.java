@@ -1,3 +1,4 @@
+/*
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.ToString;
@@ -18,3 +19,4 @@ public class GenericClass <T>{
     }
 }
 
+*/

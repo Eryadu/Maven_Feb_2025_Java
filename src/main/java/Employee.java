@@ -1,3 +1,4 @@
+/*
 import lombok.*;
 
 @Getter
@@ -13,3 +14,4 @@ public class Employee {
     private final String name;
     private String email;
 }
+*/

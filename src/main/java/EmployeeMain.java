@@ -1,3 +1,4 @@
+/*
 public class EmployeeMain {
     public static void main(String[] args) {
         Employee emp = new Employee("Abc", "abc@");
@@ -10,3 +11,4 @@ public class EmployeeMain {
         System.out.println(emp.getEmail());
     }
 }
+*/
