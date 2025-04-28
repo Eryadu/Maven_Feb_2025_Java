@@ -1,4 +1,4 @@
-package april26;
+package april26FunctionalInterface;
 
 public class main {
     public static void main(String[] args) {

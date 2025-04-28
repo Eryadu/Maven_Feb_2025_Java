@@ -1,4 +1,4 @@
-package april26;
+package april26FunctionalInterface;
 
 public interface IUtil {
     boolean Abs(int x);
